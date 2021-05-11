@@ -14,11 +14,11 @@ class HomePage extends StatelessWidget {
             backgroundColor: Colors.white,
             brightness: Brightness.light,
             title: Text(
-              "FACEBOOK",
+              "facebook",
               style: TextStyle(
                 color: Colors.blue,
                 fontWeight: FontWeight.bold,
-                fontSize: 20.0,
+                fontSize: 22.0,
                 letterSpacing: -1.2,
               ),
             ),
@@ -32,7 +32,7 @@ class HomePage extends StatelessWidget {
               CircleButton(
                 icon: MdiIcons.facebookMessenger,
                 iconsize: 30.0,
-                onpressed: () => print("search"),
+                onpressed: () => print("FacebookMessenger"),
               ),
             ],
           ),
