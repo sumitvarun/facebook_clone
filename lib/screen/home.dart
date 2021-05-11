@@ -2,6 +2,7 @@ import 'dart:ui';
 
 import 'package:facebook_clone/widgets/circle_button.dart';
 import 'package:flutter/material.dart';
+import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -23,7 +24,16 @@ class HomePage extends StatelessWidget {
             ),
             floating: true,
             actions: [
-              CircleButton(icon: Icons.search, iconsize: 30.0, onpressed: () {})
+              CircleButton(
+                icon: Icons.search,
+                iconsize: 30.0,
+                onpressed: () => print("search"),
+              ),
+              CircleButton(
+                icon: MdiIcons.facebookMessenger,
+                iconsize: 30.0,
+                onpressed: () => print("search"),
+              ),
             ],
           ),
         ],
