@@ -1,6 +1,7 @@
 import 'dart:ui';
 
 import 'package:facebook_clone/widgets/circle_button.dart';
+import 'package:facebook_clone/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
@@ -37,10 +38,7 @@ class HomePage extends StatelessWidget {
             ],
           ),
           SliverToBoxAdapter(
-            child: Container(
-              height: 100.0,
-              color: Colors.blue[300],
-            ),
+            child: CreatePostContainer(),
           ),
         ],
       ),
